@@ -12,6 +12,8 @@ let emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/u
 let form = document.querySelector("form")
 let error = document.querySelector("error-msg")
 
+
+
 form.onsubmit = (e) =>{
   
   if(emailRegex.test(email.value) == false){
